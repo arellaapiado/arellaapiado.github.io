@@ -1,0 +1,316 @@
+/* Navbar/Title Section */
+
+#title {
+  background-color: #8797B2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-item {
+  font-size: larger;
+  font-family: 'Be Vietnam Pro';
+  color: black;
+  padding-right: 50px;
+}
+
+.division {
+  padding: 0 15px 0;
+  background-color: #8797B2;
+}
+
+.fade-line {
+  background-color: #212529;
+  height: 2px;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 5px;
+
+  background-image: linear-gradient(left, #8797B2 2%, #212529 50%, #8797B2 98%);
+  background-image: -o-linear-gradient(left, #8797B2 2%, #212529 50%, #8797B2 98%);
+  background-image: -moz-linear-gradient(left, #8797B2 2%, #212529 50%, #8797B2 98%);
+  background-image: -webkit-linear-gradient(left, #8797B2 2%, #212529 50%, #8797B2 98%);
+  background-image: -ms-linear-gradient(left, #8797B2 2%, #212529 50%, #8797B2 98%);
+  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0.02, #8797B2), color-stop(0.5, #212529), color-stop(0.98, #8797B2));
+}
+
+/* Name Section */
+
+#name {
+  background-color: #8797B2;
+  padding: 200px 0;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: #8797B2;
+}
+
+h1 {
+  color: #1f1f1f;
+}
+
+.name-text {
+  color: #1f1f1f;
+  font-size: x-large;
+  padding-top: 95px;
+  line-height: 1.6;
+}
+
+.command {
+  color: #1f1f1f;
+  font-size: large;
+  padding-top: 55px;
+  line-height: 1.6;
+}
+
+/* Image Section */
+
+#img-section {
+  text-align: center;
+  background-color: #8797B2;
+}
+
+.img {
+  border-radius: 25px;
+  padding: 10px;
+  width: 250px;
+  height: auto;
+}
+
+/* Introduction Section */
+
+#intro {
+  background-color: #8797B2;
+}
+
+.intro-text {
+  text-align: center;
+  color: #1f1f1f;
+  font-size: large;
+  line-height: 2;
+  padding: 50px;
+}
+
+.caption {
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+}
+
+/* Portfolio Section */
+
+#projects {
+  padding: 10px 0;
+}
+
+/* meno-pals Section */
+
+#meno-pals {
+  padding: 150px 50px;
+}
+
+#menopals-intro {
+  padding: 25px;
+  border-radius: 30px;
+  height: 90%;
+  background-color: #F3E5F5;
+  margin-bottom: 3%;
+  box-shadow: 5px 8px 8px #9C27B0;
+}
+
+.class-name {
+  text-align: center;
+  font-size: x-small;
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+}
+
+.menopals-name {
+  text-align: center;
+  font-size: xx-large;
+  color: #9c27b0;
+  font-family: 'Be Vietnam Pro';
+  font-weight: bold;
+}
+
+.menopals-sub {
+  font-size: x-large;
+  color: #ce93d8;
+  font-family: 'Be Vietnam Pro';
+}
+
+.menopals-desc {
+  text-align: center;
+  font-size: large;
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+  line-height: 1.6;
+}
+
+#menopals-features {
+  padding: 25px;
+  border-radius: 30px;
+  height: 90%;
+  background-color: #F3E5F5;
+  box-shadow: 5px 8px 8px #9C27B0;
+  text-align: center;
+}
+
+#menopals-imgs {
+  border-radius: 30px;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+}
+
+.menopals-h5 {
+  color: #ce93d8;
+  font-family: 'Be Vietnam Pro';
+  text-align: center;
+}
+
+.desc {
+  padding: 35px 0;
+}
+
+.feature-div {
+  width: 100%;
+  height: auto;
+}
+
+.feature-name {
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+.feature-desc {
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+  font-size: medium;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* General Gif Section */
+
+#gif-section {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#app-imgs {
+  border-radius: 30px;
+  width: 200px;
+  height: auto;
+}
+
+/* SwimGym Section */
+
+#swimgym {
+  padding: 150px 50px;
+}
+
+#swimgym-intro {
+  padding: 50px 25px;
+  border-radius: 30px;
+  height: 90%;
+  background-color: aliceblue;
+  margin-bottom: 3%;
+  box-shadow: 5px 8px 8px #386FA4;
+}
+
+.swimgym-name {
+  text-align: center;
+  font-size: xx-large;
+  color: #386FA4;
+  font-family: 'Be Vietnam Pro';
+  font-weight: bold;
+}
+
+.swimgym-sub {
+  font-size: x-large;
+  color: #84D2F6;
+  font-family: 'Be Vietnam Pro';
+}
+
+.swimgym-desc {
+  text-align: center;
+  font-size: large;
+  color: #1f1f1f;
+  font-family: 'Be Vietnam Pro';
+  line-height: 1.6;
+}
+
+#swimgym-features {
+  padding: 25px;
+  border-radius: 30px;
+  background-color: aliceblue;
+  box-shadow: 5px 8px 8px #386FA4;
+  text-align: center;
+}
+
+.swimgym-h5 {
+  color: #84D2F6;
+  font-family: 'Be Vietnam Pro';
+  text-align: center;
+}
+
+#swimgym-feat {
+  padding-top: 10px;
+}
+
+/* Footer/Contact Section */
+
+#contact {
+  text-align: center;
+  background-color: #8797B2;
+  padding-top: 100px;
+}
+
+.contact-title {
+  font-size: large;
+  font-family: 'Be Vietnam Pro';
+  color: #1f1f1f;
+  margin: 0%;
+}
+
+p {
+  font-size: large;
+  font-family: 'Be Vietnam Pro';
+  color: #1f1f1f;
+  margin: 0%;
+}
+
+hr {
+  height: 5px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+#icons {
+  padding-top: 5px;
+  color: black;
+}
+
+#icons:hover {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.end {
+  font-size: small;
+  color: #212529;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0;
+}
